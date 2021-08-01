@@ -1,0 +1,58 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    
+  }
+  .head {
+    font-size: 2.5em;
+    margin: 0%;
+    padding: 0%;
+    padding: 15px;
+    text-align: center;
+    
+  }
+  .searchBox {
+    padding: 20px;
+    text-align: center;
+  }
+  input {
+    font-size: 18px;
+    background-color: #f5fef5;
+    width: 250px;
+    margin: 10px;
+    padding: 15px;
+    border-radius:  10px;
+    
+  }
+  button {
+    font-size: 18px;
+    background-color: #f2ecec;
+    color: darkgreen;
+    cursor: pointer;
+    width: 120px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+  }
+  .container {
+    font-size: 15px;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 360px;
+    justify-content: center;
+  }
+  .mainDiv {  
+    color: darkgreen;
+    margin: 10px;
+    padding: 20px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: 120px 1fr ;
+    gap: 25px;
+  }
+  audio{
+    width: 250px;
+    height: 40px;
+  }
+  
