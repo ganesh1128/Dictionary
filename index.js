@@ -41,7 +41,7 @@ async function getData(word) {
   catch (err) {
     //input.innerText = "Input is " + err.message;
 
-    document.getElementById("word1").innerHTML = err.message;
+    document.getElementById("word1").innerHTML = "Incorrect Word! Please Check";
 
     // console.log(err);
     // mainDiv.innerText = err;
